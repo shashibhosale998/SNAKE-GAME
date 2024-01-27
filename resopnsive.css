@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Libre+Baskerville&display=swap");
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: 300vw;
+  }
+
+  #board {
+    height: 144vmin;
+    width: 95vmin;
+  }
+
+  #scoreBox {
+    right: 31px;
+    top: 10px;
+    font-size: 20px;
+  }
+
+  #HighscoreBox {
+    right: 31px;
+    top: 40px;
+    font-size: 20px;
+  }
+}
