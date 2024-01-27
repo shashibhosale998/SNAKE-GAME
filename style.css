@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-image: url("snake-back-img.jpg");
+  background-size: 100vw, 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#board {
+  height: 90vmin;
+  width: 94vmin;
+  background: linear-gradient(white, gray);
+  border: 3px solid black;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: repeat(25, 1fr);
+  grid-template-columns: repeat(25, 1fr);
+}
+#scoreBox {
+  position: absolute;
+  color: bolder;
+  top: 25px;
+  right: 108px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Kanit", sans-serif;
+}
+#HighscoreBox {
+  position: absolute;
+  color: bolder;
+  top: 60px;
+  right: 108px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Kanit", sans-serif;
+}
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+}
+.head {
+  background: rgb(15, 11, 11);
+  border-radius: 16%;
+  border: 3px solid rgb(201, 27, 27);
+}
+.food {
+  border-radius: 50%;
+  background-image: url("apple-svg.png");
+  background-size: cover;
+}
+.snake {
+  background: linear-gradient(rgb(12, 143, 12), rgb(219, 219, 20));
+  border-radius: 50%;
+}
