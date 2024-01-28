@@ -59,8 +59,8 @@ h3 {
   border-radius: 50%;
 }
 button{
-  height: 27px;
-  width: 56px;
+ height: 31px;
+  width: 85px;
   border: none;
   outline: none;
   border-radius: 8px;
@@ -75,11 +75,13 @@ button{
   border-radius: 8px;
   display:none;
 }
-ul{
-  text-align: center;
+.LR{
+  display: flex;
+  justify-content: space-between;
 }
-ul li{
-  list-style: none;
-  padding-top: 2px;
-  padding-bottom: 2px;
+#topbtn{
+  margin-left: 118px;
+}
+#bottombtn{
+  margin-left: 118px;
 }
