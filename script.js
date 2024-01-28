@@ -5,7 +5,7 @@ const directionSound = new Audio("direction-music.mp3");
 const gameOverSound = new Audio("game-over-music.mp3");
 const backgroundSound = new Audio("back-music.mp3");
 
-let speed = 6;
+let speed = 5;
 let lasttime = 0;
 let score = 0;
 let snakearry = [
